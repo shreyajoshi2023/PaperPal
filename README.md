@@ -6,6 +6,8 @@
 
 PaperPal is an AI-powered web app that lets you upload any PDF and ask questions about it. It uses Google's Gemini Pro model with LangChain to give smart, accurate answers based only on the content of your uploaded file.
 
+---
+
 ### ✨ Features
 
 * ✅ Upload multiple PDF files
@@ -16,12 +18,16 @@ PaperPal is an AI-powered web app that lets you upload any PDF and ask questions
 * ✅ Simple and clean Streamlit interface
 * ✅ Secure API key handling with `.env`
 
+---
+
 How It Works
 
 1. **Upload** your PDF(s) via the sidebar.
 2. **Text is extracted** and split into chunks.
 3. **FAISS** creates a vector database for semantic search.
 4. Ask questions in the text box — the app fetches relevant chunks and replies using Gemini.
+
+---
 
 Project Structure
 
@@ -32,6 +38,8 @@ Project Structure
 ├── .env                   # API key (not pushed to GitHub)
 ├── faiss_index/           # Folder where FAISS vector data is stored
 ```
+
+---
 
 Setup Instructions
 
@@ -52,4 +60,3 @@ Setup Instructions
 
 ---
 
-Let me know if you want a one-liner tagline or a badge-style summary too!
